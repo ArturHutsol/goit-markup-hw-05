@@ -573,6 +573,21 @@ img {
 }
 
 .footer-input {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  background-color: transparent;
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.footer-input::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  text-align: left;
 }
 
 .footer-btn {
