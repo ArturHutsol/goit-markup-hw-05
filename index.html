@@ -473,9 +473,25 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-text">Subscribe</p>
+          <form class="footer-form">
+            <label aria-label="footer-email" class="footer-field">
+              <input
+                type="email"
+                name="footer-email"
+                id=""
+                class="footer-input"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-btn">Subscribe</button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <!--Modal Window-->
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-button" width="8" height="8">
@@ -539,7 +555,7 @@
             type="checkbox"
             name="policy"
             id="policy"
-            class="modal-check"
+            class="modal-check visually-hidden"
             value="true"
           />
           <label for="policy" class="modal-check-text"
