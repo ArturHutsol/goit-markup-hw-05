@@ -558,6 +558,15 @@ img {
   position: fixed;
   top: 0;
   background-color: rgb(30, 24, 35, 0.582);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal {
@@ -573,8 +582,11 @@ img {
 }
 
 .modal-close {
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
   background-color: #e7e9fc;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   position: absolute;
   top: 24px;
@@ -586,7 +598,7 @@ img {
 }
 
 .modal-close-button:focus {
-  fill: #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-title {
@@ -661,4 +673,30 @@ img {
 
 .modal-textarea:focus {
   border-color: #4d5ae5;
+}
+
+.modal-check-text {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgb(142, 143, 153);
+}
+
+.modal-check-item {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  /* fill: transparent; */
+}
+
+.modal-check:checked + .modal-check-text .modal-check-item {
+  background-color: #404bbf;
+  border: none;
 }
