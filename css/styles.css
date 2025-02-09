@@ -746,7 +746,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-textarea {
@@ -772,11 +772,9 @@ img {
 
 .modal-field-privacy {
   margin-bottom: 24px;
-  display: inline-flex;
 }
 
 .modal-check-text {
-  display: inline-flex;
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
@@ -785,12 +783,12 @@ img {
 }
 
 .modal-check-item {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
