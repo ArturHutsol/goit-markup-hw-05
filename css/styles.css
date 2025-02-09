@@ -575,6 +575,7 @@ img {
 }
 
 .footer-input {
+  color: #ffffff;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 4px;
   background-color: transparent;
@@ -582,16 +583,25 @@ img {
   height: 40px;
   padding-left: 16px;
   padding-right: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-input::placeholder {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
 }
 
 .footer-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   border: none;
   padding: 8px 24px;
@@ -600,10 +610,12 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .footer-subscribe-icon {
   fill: rgb(255, 255, 255);
+  margin-left: 16px;
 }
 
 /* ----------- MODAL WINDOW -----------*/
