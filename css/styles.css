@@ -749,6 +749,10 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+
 .modal-textarea {
   color: rgba(46, 47, 66, 0.4);
   width: 100%;
